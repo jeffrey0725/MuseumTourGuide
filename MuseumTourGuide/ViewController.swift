@@ -23,6 +23,7 @@ var iscoconutHidden = false //check coconut beacon far
 let sound_mint = Bundle.main.path(forResource: "sound_mint", ofType: "mp3")
 let sound_coconut = Bundle.main.path(forResource: "sound_coconut", ofType: "mp3")
 let defaults = UserDefaults.standard
+let hello = "hello"
 
 class ViewController: UIViewController, CLLocationManagerDelegate,AVAudioPlayerDelegate {
     var player_mint: AVAudioPlayer = AVAudioPlayer()
